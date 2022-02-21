@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #CCCCCC;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+nav div input{
+    width: 180px;
+    height: 25px;
+}
+.nav-btn {
+    color: white;
+    background-color: blue;
+    padding: 8px;
+}
+.container-mayor {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-hijo1 {
+    margin-right: 10px;
+    flex: 1;
+}
+.container-hijo1 .nin- {
+    border: 2px solid black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.nin- div {
+    padding: 10px;
+}
+.nin- .nin-hijo button{
+    background-color: #F2CA4E;
+    box-shadow: 2px 2px 2px 2px;
+}
+.container-hijo2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container-hijo2 div {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-hijo2 div h2 strong {
+    font-size: larger;
+}
+.container-hijo2 div button {
+    height: 35px;
+    width: 160px;
+    background-color: green;
+
+    box-shadow: 2px 2px 2px 2px;
+}
