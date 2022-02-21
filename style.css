@@ -8,8 +8,8 @@ nav {
     align-items: center;
     height: 100px;
     justify-content: space-around;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 nav div input{
     width: 180px;
@@ -21,8 +21,8 @@ nav div input{
     padding: 8px;
 }
 .container-mayor {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
     justify-content: space-between;
 }
@@ -42,6 +42,7 @@ nav div input{
 .nin- .nin-hijo button{
     background-color: #F2CA4E;
     box-shadow: 2px 2px 2px 2px;
+    padding: 5px;
 }
 .container-hijo2 {
     margin-top: 10px;
